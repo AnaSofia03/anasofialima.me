@@ -57,7 +57,7 @@ section {
 .profile-img {
   height: 100px;
   width: 100px;
-  background: url("/assets/img/me.jpg");
+  background: url("./assets/img/me.jpg");
   background-size: cover;
   background-position: center;
   position: absolute;
