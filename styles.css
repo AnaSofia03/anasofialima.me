@@ -1,0 +1,159 @@
+:root {
+  --main-color: rgba(12, 115, 163, 0.685);
+  --title-color: rgb(49, 48, 48);
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /*background-color: rgba(0, 0, 0, 0.863);*/
+}
+
+h1,
+h2,
+h5 {
+  color: var(--title-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  border-bottom: 1px solid var(--main-color);
+}
+
+.logo {
+  color: rgba(65, 63, 63, 0.829);
+  font-size: 20px;
+}
+
+.logo:hover {
+  color: rgb(51, 50, 50);
+}
+
+.fab {
+  font-size: 20px;
+}
+
+section {
+  margin-top: 7%;
+}
+
+.location {
+  color: dimgray;
+}
+
+.box-container {
+  /*position: relative;*/
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.box-bg {
+  background-color: rgba(18, 98, 134, 0.308);
+  /*background-color: rgba(228, 143, 178, 0.9);*/
+  border-radius: 5px;
+  /*margin: 10px;*/
+}
+.profile-img {
+  height: 100px;
+  width: 100px;
+  background: url("/assets/img/me.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about {
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+.description {
+  margin: 30px;
+}
+
+.contact {
+  margin-top: 60px;
+}
+
+.contact-btn,
+.resume-btn {
+  width: 90%;
+}
+
+.contact-hide {
+  margin-left: 80px;
+  margin-bottom: 25px;
+  color: rgb(71, 69, 69);
+  display: none;
+}
+
+.opportunities {
+  margin-top: 50px;
+  color: rgb(71, 69, 69);
+}
+.container-box {
+  margin-top: 90px;
+}
+
+.accordion-container {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.panel-heading {
+  border-radius: 25px;
+  background: rgb(143, 166, 176);
+  background: linear-gradient(
+    90deg,
+    rgba(143, 166, 176, 0.7) 0%,
+    rgba(224, 166, 173, 0.8) 35%,
+    rgba(203, 155, 187, 0.8) 100%
+  );
+
+  height: 50px;
+  padding: 10px;
+}
+
+.panel-heading:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.panel-body {
+  margin-top: 5px;
+  padding: 20px;
+}
+
+.display {
+  border-bottom: 1px solid var(--main-color);
+}
+
+.card {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.card:hover {
+  box-shadow: 5px 5px 35px rgba(0, 0, 0, 0.4);
+}
+.card-body {
+  border-top: 1px solid var(--main-color);
+  /*animation: fadeIn ease 4s;*/
+}
+
+#footer {
+  border-top: 1px solid var(--main-color);
+  color: rgb(104, 101, 101);
+}
+
+.footer-icon {
+  color: rgb(105, 103, 103);
+}
+
+.footer-icon i:hover {
+  color: rgb(2, 2, 2);
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
